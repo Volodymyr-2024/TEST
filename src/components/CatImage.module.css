@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.cat_img {
+  width: 350px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+.cat_img > img {
+  border-radius: 10px;
+  width: auto;
+  height: 400px;
+  box-shadow: 5px 5px 15px black;
+}
+.container > button {
+  background-color: rgb(71, 167, 231);
+  padding: 10px 20px;
+  color: white;
+  border: 2px solid rgb(79, 134, 216);
+  border-radius: 7px;
+  box-shadow: 5px 5px 15px black;
+}
+.container > button:hover {
+  background-color: rgb(221, 55, 55);
+  border: 2px solid red;
+}
